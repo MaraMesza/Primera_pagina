@@ -1,0 +1,22 @@
+CDN CSS: hojas en estilo cascada
+    documentos oficilaes: https://developer.mozilla.org/es/docs/Web/CSS
+                          https://www.w3schools.com/css/
+     paletas de colores:  https://paletadecolores.com.mx/
+                          https://cssgradient.io/
+    estilos de letra:     https://fonts.google.com/
+    
+
+etiquetas semanticas
+
+HTML NO SEMANTICO              SEMANTICO
+div                         header
+span                        nav
+div                         aside  
+  div                         main
+  div                         article
+  div                         header
+  div                         figure
+  div                         p
+  div                         footer
+  div                         section
+div                         footer

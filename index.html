@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- para el comentario rapido seria ctrl+} -->
+<html lang="en">
+
+<head><!--este es la cabecera dela pagina, dentro va a conif del sitio-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ------esto se lo agrego yo: -->
+    <link rel="stylesheet" href="style.css"><!-- en este caso el rel le da un nombre y el href es una refencia -->
+  <!-- aqui va lo copiado de google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
+    <title>Blog lector</title><!--titulo de pag web-->
+</head><!--aqui inicia el conteido de la pagina web-->
+
+<nav><!-- etiqueta semantica esta dice que va wa haber un menu de navegacion -->
+  <a href="#recomendacion"> Recomendaion Semanal</a> 
+  <a href="#biblioteca"> Biblioteca</a> 
+  <a href="#autores">Mas Autores</a>
+</nav>
+
+<body>
+  <!--etiqueta para encabezado, clasifica titulo,sub en ordendel num-->
+  <h1>  Blog Florecita lectora</h1>
+  <h2> Quien no lee solo vive una vida, un lector vive mil vidas</h2>
+
+  <h3 id="recomendacion"> El libro de la Semana</h3>
+  <h3> Marriage magic Saga </h3>
+  <h3> Un trato con el rey de los elfos</h3>
+  
+  <p><!--etiqueta de apertura para parrafo-->
+    Los elfos vienen por dos cosas: por guerra o a encontrar esposas; en ambos casos, vienen en busca de muerte. Hace
+    tres mil años, los humanos fueron cazados por razas poderosas con magia salvaje hasta que se formó el tratado.
+    Ahora, durante siglos, los elfos han tomado a una joven de la aldea de Luella para que sea su Reina Humana. Ser
+    elegida es visto como una marca de muerte por la gente del pueblo.
+    Una marca que Luella, de diecinueve años, se siente agradecida de haber escapado cuando era niña. En cambio, ha
+    dedicado su vida a estudiar herbología y a convertirse en la única sanadora del pueblo.
+    Es decir, hasta que el Rey Elfo llega inesperadamente... por ella.
+  <p>
+    Todo lo que Luella había pensado que sabía de su vida y sobre sí misma era una mentira. Al ser llevada a una tierra
+    llena de magia salvaje, Luella se ve obligada a ser la nueva reina de un Rey Elfo
+    frío pero increíblemente guapo. Una vez allí, se entera de un mundo agonizante que solo ella puede salvar. La tierra
+    mágica de Midscape tira de una esquina de su corazón, su hogar y la gente tira de otra... pero lo que realmente la
+    romperá es una pasión que nunca quiso.
+  </p>
+  <!-- <img src="rutaDeImagen" alt="Portada del libro">  en el src es la ruta y alt es la descripcion de la iamgen, de la ruta son 2 opciones que este en la web, o q este en la carpeta -->
+  <!-- <img src="https://imgs.search.brave.com/Q6SAjBFTfDipB-31V6_hnQH9tBEdb62_E2qs_rfrmAM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMtbmEuc3NsLWlt/YWdlcy1hbWF6b24u/Y29tL2ltYWdlcy9J/LzgxaFRsb1AxN2xM/LmpwZw" alt="Portada del libro"> -->
+   <!-- para centrar imagen debe estar dentro del div no se puede solita -->
+<div class="imagenes">
+   <img class="reyelfo" src="potada.webp" alt="portada del libro">
+</div>
+  <h3> Mas libros de la Saga </h3>
+  <ol>
+    <li> Un baile con el principe de los Fae </li>
+    <img class="reyhada" src="https://imgs.search.brave.com/AWtxiMtfIN3hOlbl49n_uuYPfm8coib9kb_1x3U_OSQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpY2lvbmVzdXJh/bm8uY29tL21lZGlh/L2NhY2hlL2E5LzA0/L2E5MDQ2YzQ3YTUz/MDQ4NDU4ZGJlM2Ez/YmM1ZTc5Mzk5Lmpw/Zw" alt="portada 2do libro">
+    <li> A duet with the vampire lord </li>
+    <img class="reyvampiro" src="https://imgs.search.brave.com/pS8uVOsaaJd3F5QETG_d_NvD_A6ZoVFsEXRsm--RbtY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpY2lvbmVzdXJh/bm8uY29tL21lZGlh/L2NhY2hlL2E1LzQ3/L2E1NDdlNTA1NmYy/NjgwNzBiNTM0NjMz/MjE5YzQxMTNhLmpw/Zw" alt="portada3libro">
+    <li> Un dueto con el Lord Sirena</li>
+    <img class="reysirena" src="https://imgs.search.brave.com/NGXoIi0PiHkA0YcL5TpvVRFPYN69xKt9CFdGPjnj5wE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZWRpY2lvbmVzdXJh/bm8uY29tL21lZGlh/L2NhY2hlLzM2LzZj/LzM2NmMyN2JkOWMx/NTQyYTBjNmZiZTVk/OTI0M2RmNzI1Lmpw/Zw" alt="portada4libro">
+  </ol>
+
+  <h4>Mas libros de Elise Kove </h4>
+  <ol> <!--etiqueta para lista ordenada-->
+    <li> El despertar de la Bruja de aire </li> <!--en este caso anidamos etiquetas-->
+    <li> El fin del reino de la tierra </li> <!--esta etiqueta es para los items-->
+    <li> La caida del principe de fuego</li>
+  </ol>
+<div class="autor">
+  <h2 id="autores">Mas recomendaciones de otros autores</h2>
+  <ul><!--lista desordenada osea viñetas-->
+    <li> Baile de ladrones</li>
+    <li> La asistente del villano</li>
+    <li> Del odio al amor </li>
+    <li> Choosing Teo </li>
+  </ul>
+</div>
+<h2>Aqui esta la galeria de libros disponibles</h2>
+</body>
+<h2 id="biblioteca">Biblioteca</h2>
+ <!-- refrencia a otras pagian -->
+<a href="galeria.html" target="_blank">galeria</a>
+<!-- para poner un link se usa el link en href y el target blank es para abrir link en otro sitio -->
+<a href="https://drive.google.com/drive/u/1/folders/1UFKGjj5GkN8noGTxsDRnB7Bld37UvkUT" target="_blank">Descargar
+  Libros</a>
+<p>Mi primera bibloteca hecha con amor por xio en el bootcamp de technolochicasPRO</p>
+
+</html>

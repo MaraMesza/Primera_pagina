@@ -1,0 +1,54 @@
+
+body{ /*comentario*/
+    background: rgb(41,171,135);
+    background: linear-gradient(0deg, rgba(41,171,135,1) 10%, rgba(154,205,50,1) 50%, rgba(152,200,69,0.9623127571341037) 70%);
+
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  estos eria pa elegir la fuente de aqui mismo que ofrece visua lstudio*/
+    font-family:"ROBOTO", sans-serif ;
+    font-size: 15px;
+}
+/* img{ 
+    width: 80px ;
+     border-radius: 10px; redondear los bordes  
+} */
+/* tambien si ya asigne a mi imagen en una clase entonces ponemos la clase despues de un únto que idnica q es uan claase */
+.reyelfo{ /*el punto es para identificar las clases*/
+    text-align: center ;
+    width: 80px;
+    border-radius: 10px;
+    opacity: 0.9;
+    border: double;
+}
+.reyhada{
+    width: 50px;
+    border-radius: 10px;
+    border: double;
+}
+.reyvampiro{
+    width: 50px;
+    border-radius: 10px;
+    border: double;
+}
+.reysirena{
+    width: 50px;
+    border-radius: 10px;
+    border: double;
+}
+
+.autor{
+    /* background-image: url("");  se usa para poner una imagen de fondo*/
+    font-size: 10px;
+    color: azure;
+}
+
+/* para centrat texto en este caso los h2 */
+h2{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+/* para centrar imagenes facil es colocarlas dentro hay otra forma correcta q es por display*/
+.imagenes{
+    text-align: center;
+}
